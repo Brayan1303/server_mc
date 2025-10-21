@@ -1,2 +1,2 @@
-java -Xmx4096M -Xmx4096M -jar server.jar nogui
+java -Xmx4096M -Xms4096M -jar server.jar nogui
 pause

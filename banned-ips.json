@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "ip": "45.148.10.134",
+    "created": "2025-08-10 17:37:56 -0300",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

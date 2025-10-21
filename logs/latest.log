@@ -1,116 +1,115 @@
-[10:11:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10:11:48] [ServerMain/INFO]: No existing world data, creating new world
-[10:11:52] [ServerMain/INFO]: Loaded 1461 recipes
-[10:11:52] [ServerMain/INFO]: Loaded 1574 advancements
-[10:11:53] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[10:11:53] [Server thread/INFO]: Loading properties
-[10:11:53] [Server thread/INFO]: Default game type: SURVIVAL
-[10:11:53] [Server thread/INFO]: Generating keypair
-[10:11:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:11:54] [Server thread/INFO]: Using default channel type
-[10:11:54] [Server thread/INFO]: Preparing level "world"
-[10:11:56] [Server thread/INFO]: Selecting global world spawn...
-[10:12:28] [Server thread/INFO]: Loading 0 persistent chunks...
-[10:12:28] [Server thread/INFO]: Preparing spawn area: 100%
-[10:12:28] [Server thread/INFO]: Time elapsed: 32320 ms
-[10:12:28] [Server thread/INFO]: Done (33.959s)! For help, type "help"
-[10:12:39] [Server thread/INFO]: /advancement (grant|revoke)
-[10:12:39] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[10:12:39] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[10:12:39] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[10:12:39] [Server thread/INFO]: /clear [<targets>]
-[10:12:39] [Server thread/INFO]: /clone (<begin>|from)
-[10:12:39] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[10:12:40] [Server thread/INFO]: /data (merge|get|remove|modify)
-[10:12:40] [Server thread/INFO]: /datapack (enable|disable|list|create)
-[10:12:40] [Server thread/INFO]: /debug (start|stop|function)
-[10:12:40] [Server thread/INFO]: /defaultgamemode <gamemode>
-[10:12:40] [Server thread/INFO]: /dialog (show|clear)
-[10:12:40] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[10:12:40] [Server thread/INFO]: /effect (clear|give)
-[10:12:40] [Server thread/INFO]: /me <action>
-[10:12:40] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[10:12:40] [Server thread/INFO]: /experience (add|set|query)
-[10:12:40] [Server thread/INFO]: /xp -> experience
-[10:12:40] [Server thread/INFO]: /fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]
-[10:12:40] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[10:12:40] [Server thread/INFO]: /forceload (add|remove|query)
-[10:12:40] [Server thread/INFO]: /function <name> [<arguments>|with]
-[10:12:40] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[10:12:40] [Server thread/INFO]: /gamerule (allowEnteringNetherUsingPortals|allowFireTicksAwayFromPlayer|announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandBlocksEnabled|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|locatorBar|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|pvp|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnMonsters|spawnRadius|spawnerBlocksEnabled|spectatorsGenerateChunks|tntExplodes|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[10:12:40] [Server thread/INFO]: /give <targets> <item> [<count>]
-[10:12:40] [Server thread/INFO]: /help [<command>]
-[10:12:40] [Server thread/INFO]: /item (replace|modify)
-[10:12:40] [Server thread/INFO]: /kick <targets> [<reason>]
-[10:12:40] [Server thread/INFO]: /kill [<targets>]
-[10:12:40] [Server thread/INFO]: /list [uuids]
-[10:12:40] [Server thread/INFO]: /locate (structure|biome|poi)
-[10:12:40] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[10:12:40] [Server thread/INFO]: /msg <targets> <message>
-[10:12:40] [Server thread/INFO]: /tell -> msg
-[10:12:40] [Server thread/INFO]: /w -> msg
-[10:12:40] [Server thread/INFO]: /particle <name> [<pos>]
-[10:12:40] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[10:12:40] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
-[10:12:40] [Server thread/INFO]: /random (value|roll|reset)
-[10:12:40] [Server thread/INFO]: /reload
-[10:12:40] [Server thread/INFO]: /recipe (give|take)
-[10:12:40] [Server thread/INFO]: /fetchprofile (name|id)
-[10:12:40] [Server thread/INFO]: /return (<value>|fail|run)
-[10:12:40] [Server thread/INFO]: /ride <target> (mount|dismount)
-[10:12:40] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
-[10:12:40] [Server thread/INFO]: /say <message>
-[10:12:40] [Server thread/INFO]: /schedule (function|clear)
-[10:12:40] [Server thread/INFO]: /scoreboard (objectives|players)
-[10:12:40] [Server thread/INFO]: /seed
-[10:12:40] [Server thread/INFO]: /version
-[10:12:40] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace|strict]
-[10:12:40] [Server thread/INFO]: /spawnpoint [<targets>]
-[10:12:40] [Server thread/INFO]: /setworldspawn [<pos>]
-[10:12:40] [Server thread/INFO]: /spectate [<target>]
-[10:12:40] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[10:12:40] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
-[10:12:40] [Server thread/INFO]: /summon <entity> [<pos>]
-[10:12:40] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[10:12:40] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[10:12:40] [Server thread/INFO]: /teammsg <message>
-[10:12:40] [Server thread/INFO]: /tm -> teammsg
-[10:12:40] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[10:12:40] [Server thread/INFO]: /tp -> teleport
-[10:12:40] [Server thread/INFO]: /tellraw <targets> <message>
-[10:12:40] [Server thread/INFO]: /test (run|runmultiple|runthese|runclosest|runthat|runfailed|verify|locate|resetclosest|resetthese|resetthat|clearthat|clearthese|clearall|stop|pos|create)
-[10:12:40] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[10:12:40] [Server thread/INFO]: /time (set|add|query)
-[10:12:40] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[10:12:40] [Server thread/INFO]: /trigger <objective> [add|set]
-[10:12:40] [Server thread/INFO]: /waypoint (list|modify)
-[10:12:40] [Server thread/INFO]: /weather (clear|rain|thunder)
-[10:12:40] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[10:12:40] [Server thread/INFO]: /jfr (start|stop)
-[10:12:40] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[10:12:40] [Server thread/INFO]: /banlist [ips|players]
-[10:12:40] [Server thread/INFO]: /ban <targets> [<reason>]
-[10:12:40] [Server thread/INFO]: /deop <targets>
-[10:12:40] [Server thread/INFO]: /op <targets>
-[10:12:40] [Server thread/INFO]: /pardon <targets>
-[10:12:40] [Server thread/INFO]: /pardon-ip <target>
-[10:12:40] [Server thread/INFO]: /perf (start|stop)
-[10:12:40] [Server thread/INFO]: /save-all [flush]
-[10:12:41] [Server thread/INFO]: /save-off
-[10:12:41] [Server thread/INFO]: /save-on
-[10:12:41] [Server thread/INFO]: /setidletimeout <minutes>
-[10:12:41] [Server thread/INFO]: /stop
-[10:12:41] [Server thread/INFO]: /transfer <hostname> [<port>]
-[10:12:41] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[10:13:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[10:13:45] [Server thread/INFO]: Stopping the server
-[10:13:45] [Server thread/INFO]: Stopping server
-[10:13:45] [Server thread/INFO]: Saving players
-[10:13:45] [Server thread/INFO]: Saving worlds
-[10:13:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:13:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[10:13:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[10:13:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:13:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:13:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:13:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:17:49] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[21:17:49] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[21:17:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:17:56] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[21:17:56] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Chunky (1.4.40), DeathChest (2.2.8), SmoothTimber (1.27.5)
+[21:18:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:18:19] [ServerMain/INFO]: Loaded 1290 recipes
+[21:18:19] [ServerMain/INFO]: Loaded 1399 advancements
+[21:18:20] [Server thread/INFO]: Starting minecraft server version 1.21
+[21:18:20] [Server thread/INFO]: Loading properties
+[21:18:20] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[21:18:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:18:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:18:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:18:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[21:18:24] [Server thread/INFO]: Default game type: SURVIVAL
+[21:18:24] [Server thread/INFO]: Generating keypair
+[21:18:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:18:25] [Server thread/INFO]: Using default channel type
+[21:18:25] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:18:25] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:18:26] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\com\google\inject\guice\7.0.0\guice-7.0.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\cloud\commandframework\cloud-core\1.7.1\cloud-core-1.7.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\cloud\commandframework\cloud-services\1.7.1\cloud-services-1.7.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\io\leangen\geantyref\geantyref\1.3.13\geantyref-1.3.13.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\org\checkerframework\checker-qual\3.22.1\checker-qual-3.22.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\cloud\commandframework\cloud-bukkit\1.7.1\cloud-bukkit-1.7.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\cloud\commandframework\cloud-brigadier\1.7.1\cloud-brigadier-1.7.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\cloud\commandframework\cloud-tasks\1.7.1\cloud-tasks-1.7.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-platform-bukkit\4.3.0\adventure-platform-bukkit-4.3.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-platform-api\4.3.0\adventure-platform-api-4.3.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.0\adventure-text-serializer-bungeecord-4.3.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-nbt\4.13.0\adventure-nbt-4.13.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-text-serializer-gson\4.13.0\adventure-text-serializer-gson-4.13.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.0\adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-platform-facet\4.3.0\adventure-platform-facet-4.3.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-platform-viaversion\4.3.0\adventure-platform-viaversion-4.3.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-text-minimessage\4.14.0\adventure-text-minimessage-4.14.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-api\4.14.0\adventure-api-4.14.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-key\4.14.0\adventure-key-4.14.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\net\kyori\adventure-text-serializer-legacy\4.14.0\adventure-text-serializer-legacy-4.14.0.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\org\bstats\bstats-bukkit\3.0.2\bstats-bukkit-3.0.2.jar
+[21:18:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library C:\Users\brayan\Desktop\server\libraries\org\bstats\bstats-base\3.0.2\bstats-base-3.0.2.jar
+[21:18:27] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
+[21:18:27] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.8
+[21:18:27] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[21:18:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:18:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:18:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:18:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:18:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:18:27] [Server thread/INFO]: Preparing level "world"
+[21:18:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:18:32] [Server thread/INFO]: Time elapsed: 2809 ms
+[21:18:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:18:33] [Server thread/INFO]: Time elapsed: 707 ms
+[21:18:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:18:33] [Server thread/INFO]: Time elapsed: 359 ms
+[21:18:33] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
+[21:18:33] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.21 (Core v1_20x)
+[21:18:34] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.8
+[21:18:35] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
+[21:18:35] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[21:18:35] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[21:18:35] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[21:18:35] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[21:18:35] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[21:18:36] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[21:18:37] [Server thread/INFO]: [spark] Starting background profiler...
+[21:18:37] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[21:18:37] [Server thread/INFO]: Done preparing level "world" (9.591s)
+[21:18:37] [Server thread/INFO]: Running delayed init tasks
+[21:18:37] [Server thread/INFO]: Done (52.750s)! For help, type "help"
+[21:18:37] [Server thread/INFO]: Timings Reset
+[21:26:28] [Server thread/INFO]: Stopping server
+[21:26:28] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[21:26:28] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.8
+[21:26:28] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.5
+[21:26:28] [Server thread/INFO]: Saving players
+[21:26:28] [Server thread/INFO]: Saving worlds
+[21:26:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[21:26:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.43s
+[21:26:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:26:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:26:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 5 entity chunks, 0 poi chunks in world 'world_the_end' in 0.10s
+[21:26:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:26:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:26:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:26:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

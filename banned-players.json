@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "uuid": "3fdbf32f-b6fc-3ece-810b-7437d30f48f9",
+    "name": "WiredNetworks",
+    "created": "2025-07-31 13:34:04 -0300",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "5cb6ab59-73ec-3936-8a68-04535ecc7630",
+    "name": "ip",
+    "created": "2025-08-08 09:08:24 -0300",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "KittyScan"
+  },
+  {
+    "uuid": "741dd650-0e0e-3eee-9b33-20726b56e524",
+    "name": "MCScans",
+    "created": "2025-08-10 17:37:07 -0300",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "c1a0b203-8d1a-3980-970f-c7777f89a4d6",
+    "name": "KittyScan",
+    "created": "2025-08-08 09:08:13 -0300",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "376e3f66-49de-3a8b-a53d-672d0e24ec35",
+    "name": "176.65.148.127",
+    "created": "2025-08-12 21:00:09 -0300",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
